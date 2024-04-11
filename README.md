@@ -2,6 +2,8 @@
 
 LOLst.sh is a bash script that displays League of Legends player stats in your terminal.
 
+[![asciicast](https://asciinema.org/a/WU4zCihoz1QEljc2yoCFY9OuQ.svg)](https://asciinema.org/a/WU4zCihoz1QEljc2yoCFY9OuQ)
+
 ### Requirements
 
 You need to have `curl` installed on your system to use this script.
@@ -12,7 +14,7 @@ You need to have `curl` installed on your system to use this script.
 ### Usage
     lolst.sh <region> <summonername-id>
 
-### Example:
+### Example
     lolst.sh kr HideOnBush-Kr1
 
 ### Output
