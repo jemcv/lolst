@@ -9,7 +9,7 @@ LOLst.sh is a bash script that displays League of Legends player stats in your t
 You need to have `curl` installed on your system to use this script.
 
 ### Installation 
-    sudo curl -sL "https://raw.githubusercontent.com/jemcv/lolst/main/lolst.sh" -o /usr/local/bin/lolst.sh && sudo chmod +x /usr/local/bin/lolst.sh
+    sudo curl -sL "https://raw.githubusercontent.com/jemcv/lolst/main/lolst.sh" -o /usr/local/bin/lolst && sudo chmod +x /usr/local/bin/lolst
 
 ### Usage
     lolst.sh <region> <summonername-id>
