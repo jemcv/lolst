@@ -12,10 +12,10 @@ You need to have `curl` installed on your system to use this script.
     sudo curl -sL "https://raw.githubusercontent.com/jemcv/lolst/main/lolst.sh" -o /usr/local/bin/lolst && sudo chmod +x /usr/local/bin/lolst
 
 ### Usage
-    lolst.sh <region> <summonername-id>
+    lolst <region> <summonername-id>
 
 ### Example
-    lolst.sh kr HideOnBush-Kr1
+    lolst kr HideOnBush-Kr1
 
 ### Output
     ┝-----------------------------------------------┥
