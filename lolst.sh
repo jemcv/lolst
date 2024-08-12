@@ -114,7 +114,7 @@ else
 | [ Playing ]      |\__/,|   (\\\`
 | [ League ]     _.|o o  |_   ) )
 | [ >_< ]--   -(((---(((--------
-    |"
+|"
     echo -e "${BWhite}| 🔎 Result for $summoner_name: ${Color_Off}"
 
     # add array of emojis based on ranks
