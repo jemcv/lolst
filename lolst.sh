@@ -101,7 +101,7 @@ kill $loader_pid
 tier=$(echo "$curl_content" | grep -oP '(?<=<div class="tier">)[^<]+' | head -n 1)
 lp=$(echo "$curl_content" | grep -o '<div class="[^"]*lp[^"]*">[^<]*' | sed -e 's/<[^>]*>//g' | head -n 1)
 ratio=$(echo "$curl_content" | grep -oP '(?<=<div class="ratio">).*?(?=</div>)' | sed -e 's/<[^>]*>//g' | head -n 1 | tr -d '\n')
-level=$(echo "$curl_content" | grep -oP '<span[^>]*>\s*\d+\s*</span>' | sed -e 's/<[^>]*>//g')
+level=$(echo "$curl_content" | grep -oP '<span[^>]*>\s*\d+\s*</span>' | sed -e 's/<[^>]*>//g' | head -n 1)
 ranking=$(echo "$curl_content" | tr -d '\n' | grep -oP '<span class="ranking">\K[^<]*' | awk '{$1=$1};1')
 
 # check if tier is available
