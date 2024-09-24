@@ -26,9 +26,9 @@ if [ "$#" -ne 2 ]; then
   lol rank stats :)${Color_Off}
 
 "
-	echo -e "${White}Usage: lolst <region> <summonername-id>${Color_Off}"
-	echo -e "${White}Note: The summoner name and id should be one argument, separated by a dash.${Color_Off}"
-	echo -e "${White}Example: lolst kr HideOnBush-Kr1${Color_Off}"
+	echo -e "Usage: lolst <region> <summonername-id>"
+	echo -e "Note: The summoner name and id should be one argument, separated by a dash."
+	echo -e "Example: lolst kr HideOnBush-Kr1"
 	exit 1
 fi
 
